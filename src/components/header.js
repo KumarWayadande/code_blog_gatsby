@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => {
   return (
     <div>
       <Navbar>
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">Code Blog</NavbarBrand>
           <Nav className=""  horizontal>
             <NavItem>
               <NavLink href="/about">About</NavLink>
