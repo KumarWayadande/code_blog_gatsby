@@ -25,6 +25,7 @@ const IndexPage = () => {
                         date={node.frontmatter.date}
                         body={node.excerpt}
                         fluid={node.frontmatter.image}
+                        tags={node.frontmatter.tags}
                       />
                     )
                   })}
@@ -64,6 +65,7 @@ const indexQuery = graphql`
             date(formatString: "MMM Do YYYY")
             author
             path
+            tags
             image {
               childImageSharp {
                 gatsbyImageData(width: 1200, height: 300, placeholder: BLURRED)

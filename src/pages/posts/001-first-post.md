@@ -4,7 +4,7 @@ date: 2024-14-11 07:39:00
 author: "Kumar Wayadande"
 path: "/first-post"
 image: "../../images/imagebg.jpg"
-tag :
+tags :
 - code
 ---
 
