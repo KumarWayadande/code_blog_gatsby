@@ -4,6 +4,8 @@ date: 2024-14-11 07:39:00
 author: "Kumar Wayadande"
 path: "/first-post"
 image: "../../images/imagebg.jpg"
+tag :
+- code
 ---
 
 Welcome to my blog ! I hope you enjoyed all the blogs with full fun!
