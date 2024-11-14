@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    Home Page
+  Home Page
   </Layout>
 )
 

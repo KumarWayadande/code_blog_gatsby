@@ -8,7 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarText
+  NavbarText,
 } from "reactstrap"
 
 const Header = ({ siteTitle }) => {
@@ -20,21 +20,17 @@ const Header = ({ siteTitle }) => {
     <div>
       <Navbar>
         <NavbarBrand href="/">Code Blog</NavbarBrand>
-          <Nav className=""  horizontal>
-            <NavItem>
-              <NavLink href="/about">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/tags">
-                Tags
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/team">
-                Team
-              </NavLink>
-            </NavItem>
-          </Nav>
+        <Nav className="" horizontal>
+          <NavItem>
+            <NavLink href="/about">About</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/tags">Tags</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/team">Team</NavLink>
+          </NavItem>
+        </Nav>
       </Navbar>
     </div>
   )

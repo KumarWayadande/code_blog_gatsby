@@ -10,7 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 // import "./layout.css"
-import '../styles/index.scss';
+import "../styles/index.scss"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -23,12 +23,14 @@ const Layout = ({ children }) => {
   //   }
   // `)
 
+  console.log(children)
+
   return (
     <>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div className="" id="content">
-      <Header />
-      {children}
+        <Header />
+        <div className="container">{children}</div>
       </div>
     </>
   )
