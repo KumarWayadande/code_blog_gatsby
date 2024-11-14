@@ -6,5 +6,10 @@ path : '/second-post'
 ---
 
 
- Welcome to my blog ! I hope you enjoyed all the blogs with full fun!
- Welcome to my blog ! I hope you enjoyed all the blogs with full fun!
+ In this blog we will understand how exactly system works with the help of the new architectural view on the system.
+
+ In this blog we will understand how exactly system works with the help of the new architectural view on the system.
+
+ In this blog we will understand how exactly system works with the help of the new architectural view on the system.
+
+ In this blog we will understand how exactly system works with the help of the new architectural view on the system.
