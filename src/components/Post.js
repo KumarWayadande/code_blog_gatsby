@@ -26,10 +26,10 @@ const Post = ({ title, author, path, date, body, fluid, tags }) => {
           <br />
           <span className="text-info">{author}</span>
         </CardSubtitle>
-        <CardText>{body}</CardText>
+        <CardText>{body}</CardText> 
         <ul className="post-tags">
           {tags.map(tag => (
-            <li>
+            <li key={tag}>
               <Link to={`/tag/${slugify(tag)}`}>
                 <Badge color="primary">{tag}</Badge>
               </Link>

@@ -14,17 +14,6 @@ import "../styles/index.scss"
 import Footer from "./Footer"
 
 const Layout = ({ children }) => {
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
-
-  console.log(children)
 
   return (
     <>
